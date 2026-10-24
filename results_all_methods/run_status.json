@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "methods": [
+    "Local-FT",
+    "Dec-Avg",
+    "Dec-EWC",
+    "Dec-Replay",
+    "SimDec-FT",
+    "DeCo-LSTM"
+  ],
+  "completed_methods": [
+    "Local-FT",
+    "Dec-Avg",
+    "Dec-EWC",
+    "Dec-Replay",
+    "SimDec-FT",
+    "DeCo-LSTM"
+  ],
+  "elapsed_minutes": 418.79
+}

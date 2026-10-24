@@ -1,0 +1,137 @@
+[*] Device: cpu; threads=4
+[*] Reading 112 blocks; client cap per group: none
+  [blocks 008/112] clients=360 by_group={'Affluent': 360, 'Comfortable': 0, 'Adversity': 0}
+  [blocks 016/112] clients=727 by_group={'Affluent': 727, 'Comfortable': 0, 'Adversity': 0}
+  [blocks 024/112] clients=1,089 by_group={'Affluent': 1089, 'Comfortable': 0, 'Adversity': 0}
+  [blocks 032/112] clients=1,450 by_group={'Affluent': 1450, 'Comfortable': 0, 'Adversity': 0}
+  [blocks 040/112] clients=1,812 by_group={'Affluent': 1812, 'Comfortable': 0, 'Adversity': 0}
+  [blocks 048/112] clients=2,176 by_group={'Affluent': 1982, 'Comfortable': 194, 'Adversity': 0}
+  [blocks 056/112] clients=2,544 by_group={'Affluent': 1982, 'Comfortable': 562, 'Adversity': 0}
+  [blocks 064/112] clients=2,921 by_group={'Affluent': 1982, 'Comfortable': 939, 'Adversity': 0}
+  [blocks 072/112] clients=3,301 by_group={'Affluent': 1982, 'Comfortable': 1319, 'Adversity': 0}
+  [blocks 080/112] clients=3,664 by_group={'Affluent': 1982, 'Comfortable': 1405, 'Adversity': 277}
+  [blocks 088/112] clients=4,039 by_group={'Affluent': 1982, 'Comfortable': 1405, 'Adversity': 652}
+  [blocks 096/112] clients=4,409 by_group={'Affluent': 1982, 'Comfortable': 1405, 'Adversity': 1022}
+  [blocks 104/112] clients=4,770 by_group={'Affluent': 1982, 'Comfortable': 1405, 'Adversity': 1383}
+  [blocks 112/112] clients=5,057 by_group={'Affluent': 1982, 'Comfortable': 1405, 'Adversity': 1670}
+[*] Prepared 5,057 eligible households from 112 blocks; by_group={'Affluent': 1982, 'Comfortable': 1405, 'Adversity': 1670}
+  [Local-FT] T1_Winter: materializing per-client train windows
+E:\DECO_LTSM\run_all_blocks.py:153: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\torch\csrc\utils\tensor_numpy.cpp:219.)
+  return torch.from_numpy(x), torch.from_numpy(y)
+    round 1/4: client 500/5057
+    round 1/4: client 1000/5057
+    round 1/4: client 1500/5057
+    round 1/4: client 2000/5057
+    round 1/4: client 2500/5057
+    round 1/4: client 3000/5057
+    round 1/4: client 3500/5057
+    round 1/4: client 4000/5057
+    round 1/4: client 4500/5057
+    round 1/4: client 5000/5057
+    round 2/4: client 500/5057
+    round 2/4: client 1000/5057
+    round 2/4: client 1500/5057
+    round 2/4: client 2000/5057
+    round 2/4: client 2500/5057
+    round 2/4: client 3000/5057
+    round 2/4: client 3500/5057
+    round 2/4: client 4000/5057
+    round 2/4: client 4500/5057
+    round 2/4: client 5000/5057
+    round 3/4: client 500/5057
+    round 3/4: client 1000/5057
+    round 3/4: client 1500/5057
+    round 3/4: client 2000/5057
+    round 3/4: client 2500/5057
+    round 3/4: client 3000/5057
+    round 3/4: client 3500/5057
+    round 3/4: client 4000/5057
+    round 3/4: client 4500/5057
+    round 3/4: client 5000/5057
+    round 4/4: client 500/5057
+    round 4/4: client 1000/5057
+    round 4/4: client 1500/5057
+    round 4/4: client 2000/5057
+    round 4/4: client 2500/5057
+    round 4/4: client 3000/5057
+    round 4/4: client 3500/5057
+    round 4/4: client 4000/5057
+    round 4/4: client 4500/5057
+    round 4/4: client 5000/5057
+    [Local-FT] after T1 test T1: RMSE=0.8341, MAE=0.5165
+  [Local-FT] T2_Spring: materializing per-client train windows
+    round 1/3: client 500/5057
+    round 1/3: client 1000/5057
+    round 1/3: client 1500/5057
+    round 1/3: client 2000/5057
+    round 1/3: client 2500/5057
+    round 1/3: client 3000/5057
+    round 1/3: client 3500/5057
+    round 1/3: client 4000/5057
+    round 1/3: client 4500/5057
+    round 1/3: client 5000/5057
+    round 2/3: client 500/5057
+    round 2/3: client 1000/5057
+    round 2/3: client 1500/5057
+    round 2/3: client 2000/5057
+    round 2/3: client 2500/5057
+    round 2/3: client 3000/5057
+    round 2/3: client 3500/5057
+    round 2/3: client 4000/5057
+    round 2/3: client 4500/5057
+    round 2/3: client 5000/5057
+    round 3/3: client 500/5057
+    round 3/3: client 1000/5057
+    round 3/3: client 1500/5057
+    round 3/3: client 2000/5057
+    round 3/3: client 2500/5057
+    round 3/3: client 3000/5057
+    round 3/3: client 3500/5057
+    round 3/3: client 4000/5057
+    round 3/3: client 4500/5057
+    round 3/3: client 5000/5057
+    [Local-FT] after T2 test T1: RMSE=0.7813, MAE=0.4588
+    [Local-FT] after T2 test T2: RMSE=0.7135, MAE=0.4423
+  [Local-FT] T3_Summer: materializing per-client train windows
+    round 1/3: client 500/5057
+    round 1/3: client 1000/5057
+    round 1/3: client 1500/5057
+    round 1/3: client 2000/5057
+    round 1/3: client 2500/5057
+    round 1/3: client 3000/5057
+    round 1/3: client 3500/5057
+    round 1/3: client 4000/5057
+    round 1/3: client 4500/5057
+    round 1/3: client 5000/5057
+    round 2/3: client 500/5057
+    round 2/3: client 1000/5057
+    round 2/3: client 1500/5057
+    round 2/3: client 2000/5057
+    round 2/3: client 2500/5057
+    round 2/3: client 3000/5057
+    round 2/3: client 3500/5057
+    round 2/3: client 4000/5057
+    round 2/3: client 4500/5057
+    round 2/3: client 5000/5057
+    round 3/3: client 500/5057
+    round 3/3: client 1000/5057
+    round 3/3: client 1500/5057
+    round 3/3: client 2000/5057
+    round 3/3: client 2500/5057
+    round 3/3: client 3000/5057
+    round 3/3: client 3500/5057
+    round 3/3: client 4000/5057
+    round 3/3: client 4500/5057
+    round 3/3: client 5000/5057
+    [Local-FT] after T3 test T1: RMSE=0.8075, MAE=0.4614
+    [Local-FT] after T3 test T2: RMSE=0.6783, MAE=0.3848
+    [Local-FT] after T3 test T3: RMSE=0.6074, MAE=0.3572
+  [Local-FT] T4_Autumn: materializing per-client train windows
+    round 1/3: client 500/5057
+    round 1/3: client 1000/5057
+    round 1/3: client 1500/5057
+    round 1/3: client 2000/5057
+    round 1/3: client 2500/5057
+    round 1/3: client 3000/5057
+    round 1/3: client 3500/5057
+    round 1/3: client 4000/5057

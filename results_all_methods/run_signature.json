@@ -1,0 +1,17 @@
+{
+  "eligible_clients": 5057,
+  "client_ids_sha256": "6013eec0bb2dfa06affd08a296fead7ebe5d63fb6e3f395d06888e301c9985e4",
+  "max_clients_per_group": null,
+  "comm_rounds": 3,
+  "local_epochs": 3,
+  "batch_size": 64,
+  "methods": [
+    "Local-FT",
+    "Dec-Avg",
+    "Dec-EWC",
+    "Dec-Replay",
+    "SimDec-FT",
+    "DeCo-LSTM"
+  ],
+  "inject_synthetic_drift": false
+}

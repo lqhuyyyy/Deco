@@ -1,0 +1,27 @@
+{
+  "data_dir": "/kaggle/input/datasets/huynhtaybui/deco-ltsm/kaggle_upload/data/london",
+  "output_dir": "/kaggle/working/results_all_methods",
+  "blocks_found": 112,
+  "eligible_clients": 5057,
+  "clients_by_acorn": {
+    "Affluent": 1982,
+    "Adversity": 1670,
+    "Comfortable": 1405
+  },
+  "max_clients_per_group": null,
+  "inject_synthetic_drift": false,
+  "comm_rounds": 3,
+  "local_epochs": 3,
+  "batch_size": 64,
+  "methods": [
+    "Local-FT",
+    "Dec-Avg",
+    "Dec-EWC",
+    "Dec-Replay",
+    "SimDec-FT",
+    "DeCo-LSTM"
+  ],
+  "resume_from": null,
+  "device": "cuda",
+  "elapsed_minutes": 418.79
+}
